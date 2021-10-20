@@ -1,6 +1,6 @@
 # This workflow will do a clean install of dependencies and run webpack build.
 
-name: Run Webpack Build
+name: Create GeoJSON File
 
 on:
   push:
