@@ -1,0 +1,25 @@
+{
+  "name": "airports",
+  "version": "1.0.0",
+  "description": "A JSON database of 28k+ airports with ICAO/IATA codes, names, cities, two-letter country identifiers, elevation, latitude & longitude, and a timezone identifier.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadhutchins182/Airports.git"
+  },
+  "keywords": [
+    "airports",
+    "ICAO",
+    "IATA",
+    "dataset"
+  ],
+  "author": "mwgg, Chad Hutchins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chadhutchins182/Airports/issues"
+  },
+  "homepage": "https://github.com/chadhutchins182/Airports#readme"
+}
