@@ -4,6 +4,7 @@
   "description": "A JSON database of 28k+ airports with ICAO/IATA codes, names, cities, two-letter country identifiers, elevation, latitude & longitude, and a timezone identifier.",
   "main": "index.js",
   "scripts": {
+    "geojson": "node convert.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
