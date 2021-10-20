@@ -53,6 +53,15 @@ airportArray.forEach((aAirport) => {
   features.push(feature);
 });
 
+if (fs.existsSync("airports.geojson")) {
+  try {
+    fs.unlinkSync("airports.geojson");
+    //file removed
+  } catch (err) {
+    console.error(err);
+  }
+}
+
 fs.writeFile("airports.geojson", JSON.stringify(collection), function (err) {
   if (err) return console.log(err);
   console.log("Created airports.geojson");
