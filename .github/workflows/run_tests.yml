@@ -5,7 +5,7 @@ name: Tests
 on: [push, pull_request]
 
 jobs:
-  create_geojson:
+  tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
