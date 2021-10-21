@@ -17,7 +17,7 @@ jobs:
           node-version: "17.x"
           registry-url: "https://npm.pkg.github.com"
       - name: Install modules
-        run: npm i
+        run: npm ci
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Run tests
