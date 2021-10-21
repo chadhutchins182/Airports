@@ -1,0 +1,22 @@
+# This workflow will do a clean install of dependencies and run webpack build.
+
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  create_geojson:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "17.x"
+          registry-url: "https://npm.pkg.github.com"
+      - name: Install modules
+        run: npm i
+      - name: Run tests
+        run: npm run test

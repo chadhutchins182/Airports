@@ -1,11 +1,11 @@
 {
   "name": "@chadhutchins182/airports",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JSON database of 28k+ airports with ICAO/IATA codes, names, cities, two-letter country identifiers, elevation, latitude & longitude, and a timezone identifier.",
   "main": "index.js",
   "scripts": {
     "geojson": "node convert.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest ./test"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/chadhutchins182/Airports/issues"
   },
-  "homepage": "https://github.com/chadhutchins182/Airports#readme"
+  "homepage": "https://github.com/chadhutchins182/Airports#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
