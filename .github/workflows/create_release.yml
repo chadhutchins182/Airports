@@ -33,7 +33,7 @@ jobs:
       - run: npm publish --access public --registry=https://npm.pkg.github.com --scope=@chadhutchins182
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.PAT }}
+          NODE_AUTH_TOKEN: ${{ secrets.NODE_TOKEN }}
       - name: Build Changelog
         id: github_release
         uses: mikepenz/release-changelog-builder-action@v1
