@@ -1,6 +1,6 @@
 {
   "name": "@chadhutchins182/airports",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "A JSON database of 28k+ airports with ICAO/IATA codes, names, cities, two-letter country identifiers, elevation, latitude & longitude, and a timezone identifier.",
   "main": "index.js",
   "scripts": {
